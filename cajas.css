@@ -1,0 +1,28 @@
+.box{
+    margin: auto;
+    display: flex;
+    height: 300px;  
+}
+.box1{
+    order: 1;
+    width: 33.3%;
+    height: 100px;
+    border: solid red 5px;
+}
+.box2{
+    order: 2;
+    width: 33.3%;
+    height: 100px;
+    border: solid red 5px;
+}
+.box3{
+    width: 33.3%;
+    order: 3;
+    height: 100px;
+    border: solid red 5px;
+}
+.container{
+
+    border: solid blue 5px;
+    display: flex;
+}
